@@ -16,7 +16,8 @@ return Application::configure(basePath: dirname(__DIR__))
                     'stripe/*',
                     'http://localhost:8000/api/registro',
                     'http://localhost:8000/api/acceso',
-                    'http://localhost:8000/api/carros'
+                    'http://localhost:8000/api/carros',
+                    'http://localhost:8000/api/carros/*',
                     ]
             );
 
